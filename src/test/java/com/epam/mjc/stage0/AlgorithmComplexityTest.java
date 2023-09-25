@@ -21,7 +21,7 @@ class AlgorithmComplexityTest {
 
     @Test
     public void badLinerSearch() {
-        assertEquals(1, encodedComplexities.indexOf(encodeAnswer(algorithmComplexity.badLinearSearch())));
+        assertEquals(1, encodedComplexities.indexOf(encodeAnswer(algorithmComplexity.badLinerSearch())));
     }
 
     @Test
